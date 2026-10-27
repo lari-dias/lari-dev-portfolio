@@ -3,6 +3,7 @@ import { ArrowUpRight } from 'lucide-react'
 import { SectionHeading } from '../components/ui/SectionHeading'
 import { ProjectGallery } from '../components/ui/ProjectGallery'
 import { ProjectCard } from '../components/ui/ProjectCard'
+import { MicroservicesArchitecture } from '../components/MicroservicesArchitecture'
 import { github, projects, webProjects } from '../data/portfolio'
 
 export function Projects() {
@@ -73,9 +74,9 @@ export function Projects() {
           </div>
 
           <p>
-            APIs, autenticação e integração entre serviços.
+            APIs REST, autenticação e integração entre microsserviços.
             <br />
-            Conheça a implementação nos repositórios.
+            Explore as implementações no GitHub.
           </p>
         </div>
 
@@ -88,6 +89,8 @@ export function Projects() {
             />
           ))}
         </div>
+
+        <MicroservicesArchitecture />
 
         <a
           className="text-link github-link"

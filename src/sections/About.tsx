@@ -39,30 +39,20 @@ export function About() {
 
           <div className="prose">
             <p>
-              Minha primeira formação foi em Jornalismo, com sete anos
-              de experiência em comunicação, rádio, produção de conteúdo
-              e social media.
+              Minha trajetória começou no Jornalismo, onde atuei
+              por sete anos com comunicação, rádio e mídias digitais.
             </p>
 
             <p>
-              Na transição para a tecnologia, encontrei uma nova forma
-              de transformar ideias em soluções digitais. Hoje, sou
-              desenvolvedora Full Stack, com foco em Back-end Java,
-              e desenvolvo projetos utilizando Spring Boot, React e
-              TypeScript, além de estudar Angular.
+              Hoje, sou desenvolvedora Full Stack, com foco em
+              Back-end Java. Trabalho com Spring Boot, React e
+              TypeScript para transformar ideias em soluções digitais.
             </p>
 
             <p>
-              Concluí as formações da Recode Pro IA e Ada Tech e sigo
-              aprimorando meus conhecimentos na graduação em Análise
-              e Desenvolvimento de Sistemas e na formação Full Stack
-              Java da Javanauta.
-            </p>
-
-            <p>
-              Uno minha experiência em comunicação, criatividade e
-              escuta ao desenvolvimento de software, criando soluções
-              que conectam tecnologia e pessoas.
+              Na Lari Dev, uno tecnologia e comunicação para
+              desenvolver experiências web modernas, funcionais
+              e alinhadas às necessidades de cada negócio.
             </p>
           </div>
 
