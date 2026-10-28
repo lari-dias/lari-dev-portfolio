@@ -1,6 +1,7 @@
 
 import { ArrowUpRight, MessageCircle, Code2 } from 'lucide-react'
 import { SectionHeading } from '../components/ui/SectionHeading'
+import { whatsappUrl } from './whatsapp'
 
 export function About() {
   return (
@@ -27,37 +28,38 @@ export function About() {
             <br />
             Criatividade para conectar.
             <br />
-            Código para construir.
+            Tecnologia para transformar.
           </p>
         </div>
 
         <div>
           <SectionHeading
-            eyebrow="02 / SOBRE MIM"
-            title="Antes de escrever código, aprendi a contar histórias."
+            eyebrow="02 / SOBRE A LARI DEV"
+            title="Tecnologia e comunicação para valorizar sua marca."
           />
 
           <div className="prose">
             <p>
-              Minha trajetória começou no Jornalismo, onde atuei
-              por sete anos com comunicação, rádio e mídias digitais.
+              Sou a Lari, desenvolvedora Full Stack e criadora
+              da Lari Dev. Desenvolvo sites e experiências digitais
+              personalizadas para empresas e profissionais.
             </p>
 
             <p>
-              Hoje, sou desenvolvedora Full Stack, com foco em
-              Back-end Java. Trabalho com Spring Boot, React e
-              TypeScript para transformar ideias em soluções digitais.
-            </p>
-
-            <p>
-              Na Lari Dev, uno tecnologia e comunicação para
-              desenvolver experiências web modernas, funcionais
-              e alinhadas às necessidades de cada negócio.
+              Com sete anos de experiência em comunicação,
+              uno criatividade e tecnologia para criar soluções
+              que valorizam a identidade de cada negócio.
             </p>
           </div>
 
-          <a className="text-link" href="#trajetoria">
-            Conheça minha trajetória
+          <a
+            className="text-link"
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Conversar sobre um projeto pelo WhatsApp"
+          >
+            Vamos conversar sobre seu projeto?
             <ArrowUpRight size={16} />
           </a>
         </div>

@@ -1,8 +1,15 @@
 
 import { useRef, useState } from 'react'
 import { ArrowUpRight, Menu, X } from 'lucide-react'
-import { navigation } from '../../data/portfolio'
 import { whatsappUrl } from '../../sections/whatsapp'
+
+const navigation = [
+  ['Serviços', 'servicos'],
+  ['Como funciona', 'processo'],
+  ['Sobre', 'sobre'],
+  ['Projetos', 'projetos'],
+  ['Contato', 'contato']
+]
 
 export function Header() {
   const [open, setOpen] = useState(false)
@@ -23,6 +30,7 @@ export function Header() {
           className="brand"
           href="#inicio"
           aria-label="Lari Dev, início"
+          onClick={() => setOpen(false)}
         >
           lari<span>dev</span>
           <span className="brand-dot">.</span>
@@ -30,6 +38,7 @@ export function Header() {
 
         <button
           ref={toggle}
+          type="button"
           className="menu-toggle"
           aria-controls="main-nav"
           aria-expanded={open}

@@ -1,9 +1,8 @@
 
-import { ArrowUpRight, Code2, MessageCircle } from 'lucide-react'
-import { github } from '../data/portfolio'
+import { ArrowUpRight, MessageCircle } from 'lucide-react'
 
 const whatsappMessage =
-  'Olá, Lari! Conheci seu portfólio e gostaria de conversar sobre um projeto. Podemos conversar?'
+  'Olá, Lari! Conheci a Lari Dev pelo site e gostaria de solicitar um orçamento para o meu projeto. Podemos conversar?'
 
 const whatsappUrl = `https://wa.me/5511965919355?text=${encodeURIComponent(whatsappMessage)}`
 
@@ -25,9 +24,8 @@ export function Contact() {
           </h2>
 
           <p>
-            Precisa de uma presença digital para seu negócio
-            ou busca uma profissional para sua equipe?
-            Vamos conversar!
+            Conte sua ideia e solicite um orçamento
+            personalizado para o seu negócio.
           </p>
         </div>
 
@@ -39,11 +37,11 @@ export function Contact() {
             <MessageCircle size={42} strokeWidth={1} />
           </span>
 
-          <h3>Sua ideia começa aqui.</h3>
+          <h3>Vamos tirar sua ideia do papel?</h3>
 
           <p>
-            Conte sua ideia, apresente seu projeto ou entre
-            em contato para conhecer melhor meu trabalho.
+            Vamos conversar sobre o que sua marca precisa
+            e encontrar a melhor solução para seu projeto.
           </p>
 
           <a
@@ -51,30 +49,15 @@ export function Contact() {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Solicitar orçamento pelo WhatsApp"
           >
             <MessageCircle size={18} />
-            Conversar pelo WhatsApp
+            Solicitar orçamento
             <ArrowUpRight size={17} />
           </a>
 
-          <a
-            className="text-link"
-            href={github}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'flex',
-              width: 'fit-content',
-              marginTop: '20px'
-            }}
-          >
-            <Code2 size={17} />
-            Conhecer meu GitHub
-            <ArrowUpRight size={16} />
-          </a>
-
           <span className="contact-note">
-            Desenvolvimento web · Full Stack · Back-end Java
+            Sites personalizados · Landing pages · Soluções web
           </span>
         </div>
       </div>

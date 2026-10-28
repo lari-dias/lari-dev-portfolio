@@ -11,20 +11,23 @@ const services = [
   {
     icon: MousePointer2,
     title: 'Landing pages',
-    text: 'Páginas estratégicas para apresentar seu produto ou serviço e incentivar o visitante a entrar em contato.',
-    message: 'Olá, Lari! Conheci seu trabalho pelo site e gostaria de solicitar um orçamento para uma landing page. Podemos conversar?'
+    text: 'Páginas estratégicas para divulgar seus serviços e atrair novos contatos.',
+    message:
+      'Olá, Lari! Conheci seu trabalho pelo site e gostaria de solicitar um orçamento para uma landing page. Podemos conversar?'
   },
   {
     icon: Monitor,
     title: 'Sites institucionais',
-    text: 'Sites profissionais que valorizam sua marca, apresentam seus serviços e facilitam o contato com seus clientes.',
-    message: 'Olá, Lari! Conheci seu trabalho pelo site e gostaria de solicitar um orçamento para um site institucional. Podemos conversar?'
+    text: 'Sites profissionais que valorizam sua marca e apresentam seu negócio.',
+    message:
+      'Olá, Lari! Conheci seu trabalho pelo site e gostaria de solicitar um orçamento para um site institucional. Podemos conversar?'
   },
   {
     icon: PanelsTopLeft,
     title: 'Interfaces web',
-    text: 'Interfaces modernas e responsivas, desenvolvidas para oferecer uma experiência intuitiva em diferentes dispositivos.',
-    message: 'Olá, Lari! Conheci seu trabalho pelo site e gostaria de conversar sobre o desenvolvimento de uma interface web. Podemos conversar?'
+    text: 'Interfaces modernas, intuitivas e adaptadas a diferentes dispositivos.',
+    message:
+      'Olá, Lari! Conheci seu trabalho pelo site e gostaria de solicitar um orçamento para uma interface web. Podemos conversar?'
   }
 ]
 
@@ -34,14 +37,9 @@ export function Services() {
       <div className="container">
         <div className="heading-with-aside">
           <SectionHeading
-            eyebrow="01 / O QUE POSSO CRIAR PARA VOCÊ"
-            title="Sua ideia merece uma boa presença digital."
+            eyebrow="01 / SERVIÇOS"
+            title="Soluções digitais para valorizar seu negócio."
           />
-
-          <p>
-            Soluções web que combinam design, funcionalidade
-            e uma experiência pensada para seu público.
-          </p>
         </div>
 
         <div className="services-grid">
@@ -69,9 +67,9 @@ export function Services() {
                   className="text-link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`Conversar sobre ${title} pelo WhatsApp`}
+                  aria-label={`Solicitar orçamento para ${title} pelo WhatsApp`}
                 >
-                  Conversar sobre o projeto
+                  Solicitar orçamento
                   <ArrowUpRight size={16} />
                 </a>
               </article>

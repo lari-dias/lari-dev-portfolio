@@ -8,7 +8,7 @@ export function Hero() {
       <div className="hero-copy">
         <span className="eyebrow">
           <span className="tiny-dot" />
-          DESENVOLVEDORA FULL STACK · JAVA · REACT · TYPESCRIPT
+          CRIAÇÃO DE SITES · LANDING PAGES · SOLUÇÕES WEB
         </span>
 
         <h1>
@@ -18,17 +18,13 @@ export function Hero() {
         </h1>
 
         <p className="hero-intro">
-          Sou a Lari, desenvolvedora Full Stack.
-          <span>
-            Uno minha experiência em comunicação à tecnologia para criar
-            soluções digitais que conectam marcas e pessoas.
-          </span>
+          Sua marca merece uma presença digital profissional.
         </p>
 
         <p className="hero-description">
-          Desenvolvo sites e landing pages personalizados, com foco em
-          design, funcionalidade e uma experiência que valoriza sua
-          presença digital.
+          Desenvolvo sites e landing pages personalizados, modernos e
+          responsivos, criando experiências digitais que valorizam
+          seu negócio e aproximam você dos seus clientes.
         </p>
 
         <div className="button-row">
@@ -49,17 +45,15 @@ export function Hero() {
           </a>
         </div>
 
-        <div className="hero-stack" aria-label="Tecnologias principais">
-          <span>Java</span>
+        <div
+          className="hero-stack"
+          aria-label="Diferenciais dos serviços"
+        >
+          <span>Design personalizado</span>
           <i />
-          <span>Spring Boot</span>
+          <span>Responsividade</span>
           <i />
-          <span>React</span>
-          <i />
-          <span>TypeScript</span>
-          <span className="learning">
-            Angular <small>em aprendizado</small>
-          </span>
+          <span>Desenvolvimento sob medida</span>
         </div>
       </div>
 
@@ -73,7 +67,7 @@ export function Hero() {
         <div className="portrait-frame">
           <img
             src="/images/lari-perfil.jpg"
-            alt="Lari, desenvolvedora Full Stack"
+            alt="Lari, desenvolvedora e criadora da Lari Dev"
             width="400"
             height="400"
             fetchPriority="high"
@@ -83,17 +77,17 @@ export function Hero() {
         <div className="portrait-note note-top">
           <Code2 size={20} />
           <span>
-            Um olhar criativo.
+            Sua ideia.
             <br />
-            <strong>Uma base técnica.</strong>
+            <strong>Uma presença digital única.</strong>
           </span>
         </div>
 
         <div className="portrait-note note-bottom">
           <Braces size={22} />
           <span>
-            Back-end Java
-            <strong> + interfaces com propósito</strong>
+            Sites personalizados
+            <strong> para o seu negócio.</strong>
           </span>
         </div>
 

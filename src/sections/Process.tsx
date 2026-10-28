@@ -21,6 +21,7 @@ const steps = [
 export function Process() {
   return (
     <section
+      id="processo"
       className="container process-section"
       aria-labelledby="process-title"
     >
@@ -32,10 +33,6 @@ export function Process() {
         <h2 id="process-title">
           Clareza em cada etapa.
         </h2>
-
-        <p>
-          Da primeira conversa à entrega, sua ideia ganha forma.
-        </p>
       </div>
 
       <ol className="process-grid">

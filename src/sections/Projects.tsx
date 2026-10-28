@@ -2,18 +2,15 @@
 import { ArrowUpRight } from 'lucide-react'
 import { SectionHeading } from '../components/ui/SectionHeading'
 import { ProjectGallery } from '../components/ui/ProjectGallery'
-import { ProjectCard } from '../components/ui/ProjectCard'
-import { MicroservicesArchitecture } from '../components/MicroservicesArchitecture'
-import { github, projects, webProjects } from '../data/portfolio'
+import { webProjects } from '../data/portfolio'
 
 export function Projects() {
   return (
     <section id="projetos" className="section projects-section">
       <div className="container">
         <SectionHeading
-          eyebrow="04 / PROJETOS SELECIONADOS"
-          title="Ideias que viraram código."
-          description="Uma visão do que construo: da presença digital de uma marca à comunicação entre serviços."
+          eyebrow="04 / PORTFÓLIO"
+          title="Projetos que conectam marcas e pessoas."
         />
 
         {webProjects.map((project, index) => (
@@ -24,8 +21,8 @@ export function Projects() {
             <div className="featured-description">
               <span className="eyebrow">
                 {index === 0
-                  ? 'EM DESTAQUE / DESENVOLVIMENTO WEB'
-                  : `${project.type.toUpperCase()} / DESENVOLVIMENTO WEB`}
+                  ? 'PROJETO EM DESTAQUE'
+                  : project.type.toUpperCase()}
               </span>
 
               <h3>
@@ -41,11 +38,9 @@ export function Projects() {
               ))}
 
               <ul className="badges">
-                {project.stack.map(technology => (
-                  <li key={technology}>
-                    {technology}
-                  </li>
-                ))}
+                <li>Design responsivo</li>
+                <li>Experiência do usuário</li>
+                <li>Desenvolvimento personalizado</li>
               </ul>
 
               <span className="featured-label">
@@ -65,40 +60,20 @@ export function Projects() {
         <div className="backend-heading">
           <div>
             <span className="eyebrow">
-              NOS BASTIDORES
+              SEU PROJETO PODE SER O PRÓXIMO
             </span>
 
             <h3>
-              Back-end Java, em prática.
+              Vamos transformar sua ideia em um site?
             </h3>
           </div>
-
-          <p>
-            APIs REST, autenticação e integração entre microsserviços.
-            <br />
-            Explore as implementações no GitHub.
-          </p>
         </div>
-
-        <div className="api-grid">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={project.title}
-              project={project}
-              index={index}
-            />
-          ))}
-        </div>
-
-        <MicroservicesArchitecture />
 
         <a
           className="text-link github-link"
-          href={github}
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#contato"
         >
-          Mais código no meu GitHub
+          Solicitar orçamento
           <ArrowUpRight size={16} />
         </a>
       </div>
