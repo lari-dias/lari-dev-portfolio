@@ -1,44 +1,47 @@
-# Lari Dev
+# Lari Dev 💗
 
-Portfólio Full Stack e apresentação de serviços de desenvolvimento web, com foco profissional em Back-end Java.
+### Desenvolvimento Web | Sites Profissionais e Landing Pages
 
-## Executar localmente
+A **Lari Dev** é uma marca de desenvolvimento web focada na criação de soluções digitais modernas, responsivas e personalizadas para empresas, profissionais e empreendedores.
 
-```sh
-npm install
-npm run dev
-```
+Nosso objetivo é transformar ideias em experiências digitais que valorizam marcas, fortalecem sua presença online e aproximam negócios de seus clientes.
 
-No PowerShell com restrição de scripts, utilize `npm.cmd` no lugar de `npm`.
+## 💻 Nossos serviços
 
-## Verificações e produção
+- **Landing Pages:** páginas estratégicas para apresentar serviços, campanhas e captar potenciais clientes.
+- **Sites Institucionais:** presença digital profissional para empresas e profissionais.
+- **Interfaces Web:** experiências digitais modernas, intuitivas e adaptadas a diferentes dispositivos.
 
-```sh
-npm run lint
-npm run build
-npm run preview
-```
+## ✨ Diferenciais
 
-O build gera a pasta `dist`. Publique somente essa pasta.
+- Design moderno e personalizado
+- Layout responsivo para desktop, tablet e celular
+- Navegação intuitiva e acessível
+- Foco na experiência do usuário
+- Desenvolvimento alinhado à identidade de cada marca
 
-O plugin local em `vite.config.ts` desativa a cópia automática de `public` e copia seus arquivos com exclusão de `public/references`. As referências continuam disponíveis localmente e não integram o build. As imagens originais dos projetos e a foto são preservadas.
+## 🛠️ Tecnologias
 
-## Organização
+O site da Lari Dev foi desenvolvido utilizando:
 
-- `src/components/layout`: cabeçalho e rodapé.
-- `src/components/ui`: títulos, cards e galeria acessível.
-- `src/sections`: seções da landing page.
-- `src/data/portfolio.ts`: links, habilidades, projetos Java e formações.
-- `src/index.css`: identidade visual, responsividade e preferências de movimento.
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- Lucide React
 
-## Conteúdo pendente
+## 🚀 Sobre o projeto
 
-E-mail, WhatsApp e LinkedIn não foram fornecidos. O contato apresenta somente o GitHub confirmado, sem formulário ou envio simulado. Os CTAs de orçamento direcionam para essa seção; um canal direto deve ser adicionado quando estiver disponível.
+Este repositório contém o código-fonte do site oficial da Lari Dev, desenvolvido para apresentar nossos serviços, projetos e soluções em desenvolvimento web.
 
-O projeto de advocacia não possui link público ou repositório informado. O BFF está identificado como em desenvolvimento e não exibe link inventado. A trajetória não atribui datas às formações.
+## 📩 Entre em contato
 
-Quando o domínio definitivo estiver disponível, complete a URL canônica e os metadados sociais com URLs absolutas.
+Tem uma ideia ou precisa fortalecer a presença digital do seu negócio?
 
-## Interações
+**Vamos transformar seu projeto em realidade!**
 
-O menu mobile informa seu estado, fecha por Escape e permite navegação por teclado. A galeria possui cinco miniaturas, controles anterior/próximo e ampliação em diálogo nativo. No diálogo, use as setas do teclado para navegar e Escape para fechar; o foco retorna ao botão que abriu a imagem. As animações e o scroll suave respeitam a preferência por movimento reduzido.
+Entre em contato pelo site da Lari Dev e solicite um orçamento.
+
+---
+
+**Lari Dev — Sites que conectam ideias, marcas e pessoas.** 💗
