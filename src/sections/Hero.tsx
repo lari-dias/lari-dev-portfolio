@@ -1,5 +1,11 @@
 
-import { ArrowDown, ArrowUpRight, Code2, Braces } from 'lucide-react'
+import {
+  ArrowDown,
+  ArrowUpRight,
+  Code2,
+  Braces,
+  Asterisk,
+} from 'lucide-react'
 import { whatsappUrl } from './whatsapp'
 
 export function Hero() {
@@ -61,7 +67,7 @@ export function Hero() {
         <div className="portrait-orbit" aria-hidden="true" />
 
         <span className="portrait-spark" aria-hidden="true">
-          ✳
+          <Asterisk size={32} strokeWidth={1.5} />
         </span>
 
         <div className="portrait-frame">
@@ -92,7 +98,8 @@ export function Hero() {
         </div>
 
         <span className="portrait-caption">
-          PRAZER, LARI <span>↗</span>
+          PRAZER, LARI
+          <ArrowUpRight size={18} strokeWidth={1.5} aria-hidden="true" />
         </span>
       </div>
 
